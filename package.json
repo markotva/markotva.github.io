@@ -1,0 +1,32 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "game",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development --open",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "author": "green67and@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.9.2",
+    "path": "^0.12.7",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "babel-preset-stage-0": "^6.24.1",
+    "drag-on-drop": "^3.3.2",
+    "lodash-es": "^4.17.11",
+    "random-words": "^1.1.0"
+  }
+}
