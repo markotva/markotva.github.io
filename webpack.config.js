@@ -7,9 +7,9 @@ const conf = {
 		app: './app.js',
 	},
 	output: {
-		path: path.resolve(__dirname, './dist'),
+		path: path.resolve(__dirname, './build'),
 		filename: '[name].js',
-		publicPath: '/dist/',
+		publicPath: '/build/',
 	},
 	devServer: {
 		overlay: true
